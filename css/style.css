@@ -1,0 +1,47 @@
+html,
+body,
+header,
+#intro {
+	height: 100%;
+}
+
+#intro {
+	background: url("../img/bg_road.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}	
+	
+.leftimg {
+    float:left;
+    margin: 0 15px 15px 0;
+}
+	
+.rightimg {
+    float:right;
+    margin: 0 0 15px 15px;
+}
+
+.author {
+    border-radius: 300px;
+	box-shadow: 0 0 7px #666;
+}
+
+#service_img {
+	animation: bounce;
+	animation-duration: 2s;
+}
+
+#greeting {
+	animation: fadeInUp;
+	animation-duration: 3s;
+}
+
+#decor_line {
+	border: none;
+	border-radius: 50px;
+	height: 6px;
+	width: 150px;
+	background-color: #fab2ca;
+}
